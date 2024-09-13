@@ -1,4 +1,4 @@
-# Todo List em Java
+# Todo List
 
 Este é um projeto simples de lista de tarefas (Todo List) desenvolvido em Java. Ele permite que os usuários adicionem, visualizem, atualizem e removam tarefas. O objetivo deste projeto é fornecer uma base prática para entender o desenvolvimento de uma aplicação console em Java, focando em manipulação de dados, estrutura de dados e interatividade com o usuário.
 
