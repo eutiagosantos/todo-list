@@ -28,16 +28,6 @@ src/
 ├── repository/
 └── TodoListApp.java   # Classe principal
 
-Bem-vindo à sua Lista de Tarefas!
-
-Escolha uma opção:
-1. Adicionar tarefa
-2. Ver tarefas
-3. Editar tarefa
-4. Marcar tarefa como concluída
-5. Remover tarefa
-6. Sair
-
 **Contribuição**
 Se você quiser contribuir para o projeto, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
