@@ -11,29 +11,29 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity
-@Table(name = "todo")
+@Table(name = "user")
 @Getter
 @Setter
 @NoArgsConstructor
-public class Todo {
+public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     @NotBlank
-    private String nome;
+    private String name;
+
     @NotBlank
-    private String descricao;
+    private String email;
 
-    private boolean realizado;
+    @NotBlank
+    private String password;
 
-    private int prioridade;
-
-    public Todo(String nome, String descricao, boolean realizado, int prioridade) {
-        this.nome = nome;
-        this.descricao = descricao;
-        this.realizado = realizado;
-        this.prioridade = prioridade;
+    public User(String name, String email, String password) {
+        this.name = name;
+        this.email = email;
+        this.password = password;
     }
 
 }
