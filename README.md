@@ -21,7 +21,7 @@ Para executar este projeto, você precisará ter:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seuusuario/todo-list-java.git
+   git clone https://github.com/eutiagosantos/todo-list.git
 src/
 ├── entity/            # Classes de modelo como Tarefa
 ├── services/          # Lógica de gerenciamento de tarefas
